@@ -3,7 +3,6 @@ using FC.Codeflix.Catalog.Domain.Entity;
 using UseCases = FC.Codeflix.Catalog.Application.UseCases.Category.CreateCategory;
 using FluentAssertions;
 
-
 namespace FC.Codeflix.Catalog.UnitTests.Application.CreateCategory;
 
 public class CreateCategoryTest
