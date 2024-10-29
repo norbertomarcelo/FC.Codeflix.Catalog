@@ -1,10 +1,11 @@
-﻿using Moq;
-using FC.Codeflix.Catalog.Domain.Entity;
-using UseCases = FC.Codeflix.Catalog.Application.UseCases.Category.CreateCategory;
+﻿using FC.Codeflix.Catalog.Domain.Entity;
 using FluentAssertions;
+using Moq;
+using UseCases = FC.Codeflix.Catalog.Application.UseCases.Category.CreateCategory;
 
 namespace FC.Codeflix.Catalog.UnitTests.Application.CreateCategory;
 
+[Collection(nameof(CreateCategoryTestFixture))]
 public class CreateCategoryTest
 {
     private readonly CreateCategoryTestFixture _fixture;

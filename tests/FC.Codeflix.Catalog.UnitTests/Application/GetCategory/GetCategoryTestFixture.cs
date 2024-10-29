@@ -8,5 +8,4 @@ public class GetCategoryTestFixtureCollection :
 { }
 
 public class GetCategoryTestFixture : CategoryUseCasesBaseFixture
-{
-}
+{ }
